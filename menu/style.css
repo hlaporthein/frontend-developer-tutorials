@@ -1,0 +1,56 @@
+/*----------------------------------
+Global CSS
+-----------------------------------*/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
+	line-height: 28px;
+	position: relative;
+}
+h1,h2,h3,h4,h5,h6,
+h1>a,h2>a,h3>a,h4>a,h5>a,h6>a {
+	font-family: 'Oswald', sans-serif;
+}
+a {
+	color: #222;
+	text-decoration: none;
+}
+form, button, input, textarea, select, option {
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* ---------------------------------------------------
+Menu 
+-----------------------------------------------------*/
+.nav-container {
+    background: #1a7def;
+}
+
+.nav-container .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-container .menu li {
+    display: inline-block;
+}
+
+.nav-container .menu li a {
+    color: #fff;
+    padding: 15px 18px;
+    display: inline-block;
+    transition: background 0.4s ease;
+}
+
+.nav-container .menu li:hover > a {
+    background: #1a7;
+}
+
