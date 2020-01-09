@@ -1,0 +1,101 @@
+/*----------------------------------
+Global CSS
+-----------------------------------*/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
+	line-height: 28px;
+}
+h1,h2,h3,h4,h5,h6,
+h1>a,h2>a,h3>a,h4>a,h5>a,h6>a {
+	font-family: 'Oswald', sans-serif;
+}
+a {
+	color: #222;
+	text-decoration: none;
+}
+form, button, input, textarea, select, option {
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+/*----------------------------------
+List Style Design
+-----------------------------------*/
+#todo-list-wapper {
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+#list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#list li {
+    background: #cae3ff;
+    padding: 15px 20px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+#list li:hover {
+    background: #1a7def;
+    color: #fff;
+}
+
+#list li .remove {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #eb9c9c;
+    color: #fff;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+#list li:hover > .remove {
+    background: #a31a1a;
+    opacity: 1;
+}
+
+/*----------------------------------
+input design
+-----------------------------------*/
+#new-task {
+    border: 2px solid #222;
+    display: block;
+    width: 70%;
+    padding: 7px 10px;
+    outline: none;
+}
+
+form {
+    position: relative;
+}
+
+.btn {
+    background: #18d74a;
+    border: 0 none;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 9px 5px;
+    width: 96px;
+    cursor: pointer;
+}
+
+

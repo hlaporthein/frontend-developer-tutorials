@@ -1,0 +1,53 @@
+/*----------------------------------
+Global CSS
+-----------------------------------*/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
+	line-height: 28px;
+	position: relative;
+}
+h1,h2,h3,h4,h5,h6,
+h1>a,h2>a,h3>a,h4>a,h5>a,h6>a {
+	font-family: 'Oswald', sans-serif;
+}
+a {
+	color: #222;
+	text-decoration: none;
+}
+form, button, input, textarea, select, option {
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+/*----------------------------------
+Accordion
+-----------------------------------*/
+.accordion {
+    max-width: 650px;
+    background: #f0fffe;
+    margin: 0 auto 30px;
+    box-shadow: 0px 0px 12px 1px #d8d8d8;
+}
+
+.accordion .accordion-title {
+    font-size: 20px;
+    background: #7cd5d0;
+    color: #fff;
+    margin: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.accordion .accordion-content {
+    padding: 20px;
+}
+
+.accordion:nth-of-type(1) {
+    margin-top: 50px;
+}
+
