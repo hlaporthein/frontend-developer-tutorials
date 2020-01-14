@@ -1,0 +1,78 @@
+/*----------------------------------
+Global CSS
+-----------------------------------*/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
+	line-height: 28px;
+	position: relative;
+}
+h1,h2,h3,h4,h5,h6,
+h1>a,h2>a,h3>a,h4>a,h5>a,h6>a {
+	font-family: 'Oswald', sans-serif;
+}
+a {
+	color: #222;
+	text-decoration: none;
+}
+form, button, input, textarea, select, option {
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+/* ---------------------------------------------------
+Subscription box
+-----------------------------------------------------*/
+.subscription-box {
+    background: #1a7def;
+    color: #fff;
+    padding: 30px;
+    max-width: 300px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.subscription-box .std-form .title {
+    font-size: 30px;
+}
+
+.subscription-box .std-form .short-description {
+    margin-bottom: 30px;
+}
+
+.std-form .field-group {
+    margin-bottom: 15px;
+}
+
+.std-form .field-group label {
+    display: block;
+}
+
+.std-form .field-group input {
+    display: block;
+    padding: 5px 0;
+    text-indent: 10px;
+    width: 100%;
+    border: 2px solid #222;
+    outline: none;
+}
+
+.btn-wrapper button {
+    display: inline-block;
+    background: #222;
+    color: #fff;
+    border: 0 none;
+    border-radius: 2px;
+    padding: 8px 10px;
+    min-width: 120px;
+    cursor: pointer;
+    transition: background 0.4s ease-in;
+}
+button:hover {
+	background: #1a7;
+}
