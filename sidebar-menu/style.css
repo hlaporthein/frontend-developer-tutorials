@@ -1,0 +1,74 @@
+/*----------------------------------
+Global CSS
+-----------------------------------*/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
+	line-height: 28px;
+	position: relative;
+}
+h1,h2,h3,h4,h5,h6,
+h1>a,h2>a,h3>a,h4>a,h5>a,h6>a {
+	font-family: 'Oswald', sans-serif;
+}
+a {
+	color: #222;
+	text-decoration: none;
+}
+form, button, input, textarea, select, option {
+    font-family: 'Old Standard TT', serif;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* ---------------------------------------------------
+Sidebar Menu
+-----------------------------------------------------*/
+.sidebar-menu {
+    background: #1a7def;
+    max-width: 280px;
+}
+
+.sidebar-menu #site-logo {margin: 0;text-align: center;padding: 15px 10px;border-bottom: 2px solid #222;}
+
+.sidebar-menu #site-logo a i {
+    color: #600;
+    font-size: 50px;
+}
+
+.sidebar-menu .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-menu .menu li {}
+
+.sidebar-menu .menu li a {
+    color: #fff;
+    display: block;
+    padding: 15px 10px;
+    border-bottom: 1px solid #222;
+    transition: all 0.4s ease-in;
+    text-indent: 0;
+}
+
+.sidebar-menu .menu li a .txt {
+    display: inline-block;
+    margin-left: 19px;
+}
+
+.sidebar-menu .menu li a i {
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.sidebar-menu .menu li:hover > a {
+    background: #1a7;
+    text-indent: 10px;
+}
+
